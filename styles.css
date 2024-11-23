@@ -1,0 +1,271 @@
+body,
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header svg {
+  fill: red;
+  width: 60px;
+  height: 60px;
+}
+
+.card {
+  background-color: black;
+  height: 250px;
+  width: 600px;
+  border-radius: 5px;
+  border-bottom: solid red 2px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  position: absolute;
+  display: flex;
+  top: 73px;
+  right: 731px;
+  flex-direction: row-reverse;
+}
+
+.titulo {
+  position: absolute;
+  bottom: 50px;
+  right: 620px;
+}
+
+.card2 svg {
+  display: flex;
+  border-color: black;
+  border-radius: 5px;
+  width: 15px;
+  height: 15px;
+  fill: white;
+  background-color: black;
+}
+.card2 {
+  display: flex;
+  background-color: black;
+  color: white;
+  position: relative;
+  bottom: -165px;
+  right: 70px;
+  border-radius: 15px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  height: 18px;
+  width: 60px;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+.botao1 svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+.botao1 button {
+  position: absolute;
+  left: 486px;
+  background-color: transparent;
+  border: none;
+  top: 10px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+  height: 30px;
+}
+.botao2 svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+.botao2 button {
+  position: absolute;
+  left: 527px;
+  background-color: transparent;
+  border: none;
+  top: 10px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+  height: 30px;
+}
+.botao3 svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+.botao3 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  top: 10px;
+}
+.botao1 button:hover {
+  display: flex;
+  background-color: gray;
+  
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.botao2 button:hover {
+  display: flex;
+  background-color: gray;
+  
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.botao3 button:hover {
+  background-color: gray;
+}
+
+.meio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap:15px;
+  
+}
+.avancar svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+}
+.avancar {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+.pause:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.meio .pause:hover {
+  background-color: gray;
+}
+.meio .avancar:hover {
+  background-color: gray;
+}
+.meio .voltar:hover {
+    background-color: gray;
+  }
+
+.pause svg {
+  fill: white;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+}
+.pause {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.voltar {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.voltar svg{
+    fill: white;
+    width: 20px;
+    height: 20px;
+}
+.voltar{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.baixo button {
+  position: absolute;
+  bottom: 10px;
+  background-color: transparent;
+  border: none;
+  right: 10px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+  height: 30px;
+}
+.baixo svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+.baixo button:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.superior{
+    display: none;
+}
+
+.card:hover > .superior{
+    display: block;
+}
+.meio{
+    display: none;
+}
+.card:hover > .meio{
+    display: block;
+    display: flex;
+    flex-direction: row;
+}
+.baixo{
+    display: none;
+}
+.card:hover > .baixo{
+    display: block;
+}
+
